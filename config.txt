@@ -1,0 +1,4 @@
+Start_line_number:7408
+End_line_number:7415
+Path_to_PATFILE.IDX:/Users/novikovnikolay/Desktop/Работа/ReaderWriter/PATFILE.IDX
+Path_to_folder:C:\Users/novikovnikolay/Desktop/Работа/ReaderWriter/7400-7499
