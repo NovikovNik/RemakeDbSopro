@@ -34,16 +34,17 @@ public class pathSearcher {
                 String name = fileContent.split("\n")[4];
                 String proName = fileContent.split("\n")[5];
 
-                System.out.print(id);
-                System.out.print(";" + name.split("=")[1] + ";" + proName.split("=")[1] + ";;;0");
+                //System.out.print(id);
+                //System.out.print(";" + name.split("=")[1] + ";" + proName.split("=")[1] + ";;;0");
 
-                addToDataBase("\n" + id + ";" + name.split("=")[1] + ";" + proName.split("=")[1] + ";;;0", Base);
+                addToDataBase( id + ";" + name.split("=")[1] + ";" + proName.split("=")[1] + ";;;0"+"\n"+"\r", Base);
 
             } catch (FileNotFoundException e) {
                 System.out.println("File not found exception");
                 e.printStackTrace();
             } catch (IOException e) {
                 e.printStackTrace();
+                System.out.println("Error");
             }
 
 
@@ -56,7 +57,9 @@ public class pathSearcher {
 
         FileOutputStream outputStream = new FileOutputStream(dataPath, true);
         byte[] strToBytes = data.getBytes(StandardCharsets.UTF_16LE);
+//        outputStream.write(System.getProperty("line.separator").getBytes(StandardCharsets.UTF_16LE));
         outputStream.write(strToBytes);
+        System.out.println("added " + data);
         outputStream.close();
     }
 

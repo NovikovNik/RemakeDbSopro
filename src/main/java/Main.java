@@ -43,10 +43,10 @@ public class Main {
                         pathFolder = line;
                         break;
                 }
-                System.out.println(start);
-                System.out.println(finish);
-                System.out.println(path);
-                System.out.println(pathFolder);
+//                System.out.println(start);
+//                System.out.println(finish);
+//                System.out.println(path);
+//                System.out.println(pathFolder);
 
             }
 

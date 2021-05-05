@@ -1,4 +1,4 @@
-Start_line_number:7408
-End_line_number:7415
-Path_to_PATFILE.IDX:/Users/novikovnikolay/Desktop/Работа/ReaderWriter/PATFILE.IDX
-Path_to_folder:C:\Users/novikovnikolay/Desktop/Работа/ReaderWriter/7400-7499
+Start_line_number:7700
+End_line_number:7800
+Path_to_PATFILE.IDX:/Volumes/ESD-USB/для обработки/PATFILE.IDX
+Path_to_folder:/Volumes/ESD-USB/перенос/7700-7799
